@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link rel="icon" type="image/gif/png" href="img/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<link rel="stylesheet" href="css/cssIndex.css">
+	
+	<!--parallax slides-->
+	<script>
+   
+  
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+  
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+</script>
+
+<!--slides in PROJECTS section-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</head>
+
+
+
+<body>
+	<div class="row">
+		<div class="part-1">
+			<div class="navigation">
+				<!--<a href="#" class="logo">AYA</a>-->
+				<ul class="navigationMenu">
+					<li><a href="#aboutMe" class="scroll">ABOUT ME </a></li>
+					<li><a href="#educationH2" class="scroll">EDUCATION</a></li>
+					<li><a href="#mySkillsH2" class="scroll">MY SKILLS</a></li>
+					<li><a href="#projectsH2" class="scroll">PROJECTS</a></li>
+					<li><a href="#contactH2" class="scroll">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+
+		
+		<div class="part-2">
+			
+			<div id="aboutMe">
+				<div class="col-12">
+					<p>Hi, My name is Aya!<br> I'm an UX/UI Designer </p>
+					<hr>
+					<p>I use my own experience and knowledge to get the effective <br> and efficient result oriented on customer needs</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="part-2 education">
+			<h2 id="educationH2" class="section-name">EDUCATION</h2>
+			<div id="education">
+				<div class="col-12">
+	
+					<div class="col-6">
+						<img src="img/uta3.png" alt="university of tampere">
+						<p>Master Degree in Human-Technology Interaction
+						<br> University of Tampere, Finland
+						<br>2014-present</br></p>
+					</div>	
+
+					<div class="col-6">
+						<img src="img/kargtu3.png" alt="karaganda state technical university">	
+						<p>Bachelor degree of System for information system<br> Karaganda State Technical University
+						<br> Institute of computer technologies and system engineering, Kazakhstan 
+						<br>2010-2014</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="part-2">
+			<h2 id="mySkillsH2" class="section-name">MY SKILLS</h2>
+			
+			<div id="mySkills">
+				<div class="col-12">
+
+					<div class="col-4">
+						
+							<h3 class="skill-name">Core skills</h3>
+							<ul class="skill">
+								<li>research technique</li>
+								<li>ethnography and discovery</li>
+								<li>user modeling</li>
+								<li>product design</li>
+								<li>interface design</li>
+							</ul>	
+						
+					</div>
+			
+
+				<div class="col-4">
+					
+						<h3 class="skill-name">Prototyping</h3>
+						<ul class="skill">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Adobe Photoshop</li>
+							<li>Adobe Illustrator </li>
+						</ul>
+					
+				</div>
+
+				<div class="col-4">
+					
+						<h3 class="skill-name">Languages</h3>
+						<ul class="skill">
+							<li>English</li>
+							<li>Russian</li>
+							<li>Kazakh</li>
+							<li>Finnish (beginner) </li>
+						</ul> 
+					
+				</div>
+
+				<div class="col-4">
+					
+						<h3 class="skill-name">Personal skills</h3>
+						<ul class="skill">
+							<li>problem-solving</li>
+							<li>good listener</li>
+							<li>adaptable</li>
+							<li>able to work under pressure</li>
+						</ul>
+					
+				</div>
+
+				<div class="col-4">
+					
+						<h3 class="skill-name">Business skills</h3>
+					 	<ul class="skill">
+							 <li>project management</li>
+							<li>time management</li>
+							<li>stakeholder or client management</li>
+							<li>basic business writing</li>
+						</ul>
+					
+				</div>
+
+				<div class="col-4">
+					
+						<h3 class="skill-name">Interpersonal skills</h3>
+						<ul class="skill">
+							<li>active listening</li>
+							<li>interviewing and observation</li>
+							<li>team-building</li>
+							<li>collaboration</li>
+						</ul>
+					
+				</div>
+			</div>
+		</div>
+</div>
+		
+		<div class="part-2">
+			<hr class="projects">
+			<h2 id="projectsH2" class="section-name">Projects</h2>
+			<div id="projects">
+				<div class="slideshow">
+					<div class="mySlides fade">
+						<img src="img/slide1.jpg" alt="UI of orienteering event app" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="img/slide2.jpg" alt="UI of orienteering event app" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+  					<span class="dot" onclick="currentSlide(1)"></span> 
+  					<span class="dot" onclick="currentSlide(2)"></span> 
+  					<!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="part-2 contact">
+			<h2 id="contactH2" class="section-name">Contacts</h2>
+			<div id="contact">
+				
+				<div class="col-12">
+					<div class="col-6">
+						<img src="img/email2.png" alt="email icon">
+						<p>ayazhan_dia@inbox.ru </p>
+					</div>
+	
+					<div class="col-6">
+						<img src="img/phone2.png" alt="phone icon">
+						<p>+358466133567</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
