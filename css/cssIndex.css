@@ -1,0 +1,499 @@
+/*
+Portfolio Aya
+
+*/
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*v{
+	border-style: solid;
+	border-color:black;
+}*/
+
+body{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 400;
+}
+
+.row{
+	
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="part-"] {
+    float: left;
+   
+}
+
+/* ==============================
+For mobile phones: part-
+=================================*/
+[class*="part-"] {
+    width: 100%;
+}
+
+.part-1{
+	margin-top: 0px;
+	position: fixed;
+	height: 120px;
+	/*margin-bottom: 20%;*/
+}
+.navigation{
+	min-height: 120px;
+}
+
+.navigationMenu{
+	margin-top: 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline;
+
+}
+
+.scroll{
+	float: left;
+	padding-top: 10px;
+	padding-left:   10px;
+}
+
+.name{
+	margin-top: 20%;
+}
+
+
+/* ==============================
+For tablets: part-
+=================================*/
+/*@media only screen and (min-width: 600px) {
+
+    .part-1 {
+    	height: 100vh;
+    	width: 25%; 
+    	position: fixed;
+
+	
+	}
+
+    .navigation{
+    	height: 100vh;
+    	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+			align-items:center;
+    }
+
+    .scroll{
+    	padding-top: 20%;
+    	padding-left: 20%;
+    }
+
+    .part-1 li{
+    	float:none;
+		padding-left: 15px;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+    .part-2 {
+    	width: 75%; 
+    	margin-left: 25%;
+    	height:100vh;
+    }
+
+    .part-1 .logo{
+    	padding-top: 10%;
+    }
+    
+}
+
+/*==================================
+ For desktop: part-
+ ====================================*/
+@media only screen and (min-width: 768px) {
+
+/*part-1*/
+    .part-1 {
+    	
+		
+    	height: 100vh;
+    	width: 20%;
+    	/*sition: fixed;*/
+    	display:-webkit-flex;
+		display:flex;
+		-webkit-align-items:center;
+			align-items:center;
+    	
+    }
+
+   /*part-1 li{
+		float: none;
+	}*/
+
+	.navigation{
+	
+	margin-left: auto;
+	
+}
+
+	.navigationMenu{
+	list-style: none;
+	list-style-position: outside;
+	margin-right: 0px;
+	}
+
+	.scroll{
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+    .part-2 {
+    	width:80%;
+    	margin-left: 20%;
+    	
+    }
+
+    
+}
+
+
+
+/*===========================
+part-2
+=============================*/
+.part-2::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    
+}
+
+/*============================
+ For mobile phones: col-
+ =============================*/
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/* ==============================
+For tablets: col
+=================================*
+@media only screen and (min-width: 600px) {
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+   
+}*/
+
+/*==================================
+ For desktop: col
+ ====================================*/
+@media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;
+
+    }
+
+    
+
+     #aboutMe, #education, #mySkills,  #contact{
+    	height:100vh;
+    }
+}
+
+/*=========================================
+NAVIGATION
+===========================================*/
+.part-1{
+	background-color: #363138;;
+	font-style: #fff;
+}
+
+
+.scroll{
+	float:right;
+	padding-right: 15px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.scroll:hover{
+	color:#ded81f;
+}
+
+.scroll a:active{
+	color:#ded81f;
+}
+/*========================================
+H2 .name (section name)
+==========================================*/
+
+
+
+/*=========================================
+ABOUT ME
+===========================================*/
+#aboutMe{
+	background:url('../img/background1.jpg') no-repeat center center;
+	background-size: cover;
+	opacity:0.6;
+	
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+			align-items:center;
+	}
+
+hr{
+	
+	border-color:#ded81f;
+	width: 180px;
+	height:1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+#aboutMe p{  
+	color: #363138;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	text-align: center;
+	
+	font-size: 28px;
+	font-weight: 600;
+}
+
+
+/*==========================================
+EDUCATION
+============================================*/
+.education{
+	background:url('../img/background2.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+
+
+#education{
+	
+	
+	
+	
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+			align-items:center;
+	}
+
+#education img{  
+	display: block;
+	margin: 0 auto;
+}
+
+#education p{
+	text-align: center;
+	font-weight: 600;
+	color: #797e81;
+}
+
+#education p:hover{
+	color:#363138;
+}
+
+/*==========================================
+SKILLS
+============================================*/
+#mySkills{
+	background:url('../img/background3.jpg') no-repeat center center;
+	background-size: cover;
+	
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+			align-items:center;
+	}
+
+
+.col-4{
+	display: block;
+	/*rder-color: red;*/
+	min-height: 310px;
+	
+}
+
+.col-4:hover{
+	
+	border-color: #dcdbc5;
+	border-style: outset;
+	box-shadow: 10px 10px 5px #f1f1f1;
+	
+}
+
+.skill-name{
+	text-align: center;
+	color:#7a7f82;
+	font-weight: 600;
+}
+
+.skill{
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+	line-height: 30px;
+	color:#797e81;
+	font-weight: 600;
+}
+
+.skill:hover{
+	color:#363138;
+}
+
+/*=========================================
+PROJECTS
+===========================================*/
+.projects{
+	/*border-top:solid #ececec;*/
+	border: 0;
+	width: 280px;
+    height: 1px;
+    color:#ececec;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	
+}
+
+.slideshow{
+	position: relative;
+	margin:auto;
+}
+
+.prev, .next{
+	cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*==========================================
+CONTACTS
+============================================*/
+#contact{
+	/**/
+	
+	
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+			align-items:center;
+	}
+.contact{
+	background:url('../img/background4.jpg') no-repeat center center;
+	background-size: cover;
+}
+#contact img{
+	float:left;
+	padding-left:   50px;
+	padding-right: 20px;
+}
+
+#contact p{
+color:#797e81;
+font-weight: 600;
+}
+
+#contact p:hover{
+	color:#363138;
+}
+/*=================================*/
+.section-name{
+	margin: 0;
+	text-align: center;
+	color:#ded81f;
+}
+
+.section-name:hover{
+	color:#363138;
+}
+
