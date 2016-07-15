@@ -7,10 +7,7 @@ Portfolio Aya
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-/*v{
-	border-style: solid;
-	border-color:black;
-}*/
+
 
 body{
 	font-family: 'Helvetica', sans-serif;
@@ -43,7 +40,7 @@ For mobile phones: part-
 	margin-top: 0px;
 	position: fixed;
 	height: 120px;
-	/*margin-bottom: 20%;*/
+	
 }
 .navigation{
 	min-height: 120px;
@@ -68,50 +65,6 @@ For mobile phones: part-
 }
 
 
-/* ==============================
-For tablets: part-
-=================================*/
-/*@media only screen and (min-width: 600px) {
-
-    .part-1 {
-    	height: 100vh;
-    	width: 25%; 
-    	position: fixed;
-
-	
-	}
-
-    .navigation{
-    	height: 100vh;
-    	display:-webkit-flex;
-	display:flex;
-	-webkit-align-items:center;
-			align-items:center;
-    }
-
-    .scroll{
-    	padding-top: 20%;
-    	padding-left: 20%;
-    }
-
-    .part-1 li{
-    	float:none;
-		padding-left: 15px;
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
-
-    .part-2 {
-    	width: 75%; 
-    	margin-left: 25%;
-    	height:100vh;
-    }
-
-    .part-1 .logo{
-    	padding-top: 10%;
-    }
-    
-}
 
 /*==================================
  For desktop: part-
@@ -124,7 +77,7 @@ For tablets: part-
 		
     	height: 100vh;
     	width: 20%;
-    	/*sition: fixed;*/
+    	
     	display:-webkit-flex;
 		display:flex;
 		-webkit-align-items:center;
@@ -132,10 +85,7 @@ For tablets: part-
     	
     }
 
-   /*part-1 li{
-		float: none;
-	}*/
-
+  
 	.navigation{
 	
 	margin-left: auto;
@@ -186,26 +136,6 @@ part-2
 }
 
 
-/* ==============================
-For tablets: col
-=================================*
-@media only screen and (min-width: 600px) {
-
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-
-   
-}*/
 
 /*==================================
  For desktop: col
@@ -269,7 +199,7 @@ H2 .name (section name)
 ABOUT ME
 ===========================================*/
 #aboutMe{
-	background:url('../img/background1.jpg') no-repeat center center;
+	background:url('../img/background1-2.jpg') no-repeat center center;
 	background-size: cover;
 	opacity:0.6;
 	
@@ -387,7 +317,7 @@ SKILLS
 PROJECTS
 ===========================================*/
 .projects{
-	/*border-top:solid #ececec;*/
+	
 	border: 0;
 	width: 280px;
     height: 1px;
@@ -460,9 +390,6 @@ PROJECTS
 CONTACTS
 ============================================*/
 #contact{
-	/**/
-	
-	
 	display:-webkit-flex;
 	display:flex;
 	-webkit-align-items:center;
