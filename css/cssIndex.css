@@ -199,9 +199,9 @@ H2 .name (section name)
 ABOUT ME
 ===========================================*/
 #aboutMe{
-	background:url('../img/background1-2.jpg') no-repeat center center;
+	background:url('../img/background1.jpg') no-repeat center center;
 	background-size: cover;
-	
+	opacity:0.6;
 	
 	display:-webkit-flex;
 	display:flex;
