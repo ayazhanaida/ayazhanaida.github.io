@@ -8,15 +8,12 @@ Portfolio Aya
           box-sizing: border-box;
 }
 
-
 body{
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
+	font-size: 20px;
 }
 
-.row{
-	
-}
 
 .row::after {
     content: "";
@@ -42,6 +39,7 @@ For mobile phones: part-
 	height: 120px;
 	
 }
+
 .navigation{
 	min-height: 120px;
 }
@@ -50,20 +48,16 @@ For mobile phones: part-
 	margin-top: 0px;
 	padding: 0px;
 	list-style: none;
-	display: inline;
-
+	
 }
+
 
 .scroll{
 	float: left;
 	padding-top: 10px;
 	padding-left:   10px;
+	font-family: 'Josefin Sans', sans-serif;
 }
-
-.name{
-	margin-top: 20%;
-}
-
 
 
 /*==================================
@@ -73,11 +67,9 @@ For mobile phones: part-
 
 /*part-1*/
     .part-1 {
-    	
-		
-    	height: 100vh;
+    	 	height: 100vh;
     	width: 20%;
-    	
+    	/*sition: fixed;*/
     	display:-webkit-flex;
 		display:flex;
 		-webkit-align-items:center;
@@ -85,12 +77,9 @@ For mobile phones: part-
     	
     }
 
-  
-	.navigation{
-	
+ 	.navigation{
 	margin-left: auto;
-	
-}
+	}
 
 	.navigationMenu{
 	list-style: none;
@@ -107,10 +96,8 @@ For mobile phones: part-
     .part-2 {
     	width:80%;
     	margin-left: 20%;
-    	
-    }
+    	 }
 
-    
 }
 
 
@@ -154,11 +141,9 @@ part-2
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;
-
     }
 
     
-
      #aboutMe, #education, #mySkills,  #contact{
     	height:100vh;
     }
@@ -168,8 +153,8 @@ part-2
 NAVIGATION
 ===========================================*/
 .part-1{
-	background-color: #363138;;
-	font-style: #fff;
+	background-color: #363138;
+	
 }
 
 
@@ -186,47 +171,40 @@ NAVIGATION
 	color:#ded81f;
 }
 
-.scroll a:active{
-	color:#ded81f;
-}
-/*========================================
-H2 .name (section name)
-==========================================*/
-
-
 
 /*=========================================
 ABOUT ME
 ===========================================*/
-#aboutMe{
-	background:url('../img/background1.jpg') no-repeat center center;
+.aboutMe{
+	background:url('../img/background1-3.jpg') no-repeat center center;
 	background-size: cover;
-	opacity:0.6;
 	
-	display:-webkit-flex;
-	display:flex;
-	-webkit-align-items:center;
-			align-items:center;
-	}
-
-hr{
-	
-	border-color:#ded81f;
-	width: 180px;
-	height:1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-
 }
 
-#aboutMe p{  
-	color: #363138;
-	padding-top: 110px;
-	padding-bottom: 110px;
-	text-align: center;
+
+
+#aboutMe #intro1{
+	color: #ececec;
+	background-color: rgba(222, 216, 31, 0.55);
+	text-align: left;
+	font-family: 'Cardo', serif;
+	font-size: 48px;
+	font-style: italic;
+	margin: 200px 0 0 30%;
+	padding:100px 0 110px 20px;
 	
+}
+
+#aboutMe #intro2{
+	color: #ececec;
+	text-align: left;
+	margin-left: 20px;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
-	font-weight: 600;
+	
+	
 }
+
 
 
 /*==========================================
@@ -238,12 +216,7 @@ EDUCATION
 }
 
 
-
 #education{
-	
-	
-	
-	
 	display:-webkit-flex;
 	display:flex;
 	-webkit-align-items:center;
@@ -268,10 +241,13 @@ EDUCATION
 /*==========================================
 SKILLS
 ============================================*/
-#mySkills{
+.mySkills{
 	background:url('../img/background3.jpg') no-repeat center center;
 	background-size: cover;
-	
+	opacity: 0.7;
+}
+
+#mySkills{
 	display:-webkit-flex;
 	display:flex;
 	-webkit-align-items:center;
@@ -281,50 +257,50 @@ SKILLS
 
 .col-4{
 	display: block;
-	/*rder-color: red;*/
 	min-height: 310px;
+	opacity: 0.6;
 	
 }
 
 .col-4:hover{
-	
 	border-color: #dcdbc5;
 	border-style: outset;
 	box-shadow: 10px 10px 5px #f1f1f1;
+	font-size: 20px;
+	
+	opacity: 1;
 	
 }
 
 .skill-name{
 	text-align: center;
-	color:#7a7f82;
+	color:#363138;
 	font-weight: 600;
 }
+
+	
 
 .skill{
 	list-style: none;
 	text-align: center;
 	padding-left: 0;
 	line-height: 30px;
-	color:#797e81;
+	color:#363138;
 	font-weight: 600;
 }
 
-.skill:hover{
-	color:#363138;
-}
 
 /*=========================================
 PROJECTS
 ===========================================*/
+
 .projects{
 	
-	border: 0;
-	width: 280px;
-    height: 1px;
-    color:#ececec;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	background-color: #363138;
+	background-size: cover;
 	
 }
+
 
 .slideshow{
 	position: relative;
@@ -332,7 +308,7 @@ PROJECTS
 }
 
 .prev, .next{
-	cursor: pointer;
+  cursor: pointer;
   position: absolute;
   top: 0;
   top: 50%;
@@ -366,7 +342,7 @@ PROJECTS
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+ .dot:hover {
   background-color: #717171;
 }
 
@@ -418,9 +394,8 @@ font-weight: 600;
 	margin: 0;
 	text-align: center;
 	color:#ded81f;
+	font-family: 'Cardo', serif;
 }
 
-.section-name:hover{
-	color:#363138;
-}
+
 
