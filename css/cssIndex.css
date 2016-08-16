@@ -153,7 +153,7 @@ part-2
 NAVIGATION
 ===========================================*/
 .part-1{
-	background-color: #363138;
+	background: linear-gradient(90deg, #452e3d, #302f37);
 	
 }
 
@@ -165,10 +165,11 @@ NAVIGATION
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 20px;
+	font-style: italic; 
 }
 
 .scroll:hover{
-	color:#ded81f;
+	color:#038ca9;
 }
 
 
@@ -176,7 +177,7 @@ NAVIGATION
 ABOUT ME
 ===========================================*/
 .aboutMe{
-	background:url('../img/background1-3.jpg') no-repeat center center;
+	background:url('../img/background1-4.jpg') no-repeat center center;
 	background-size: cover;
 	
 }
@@ -185,7 +186,7 @@ ABOUT ME
 
 #aboutMe #intro1{
 	color: #ececec;
-	background-color: rgba(222, 216, 31, 0.55);
+	background-color: rgba(3, 140, 169, 0.55);
 	text-align: left;
 	font-family: 'Cardo', serif;
 	font-size: 48px;
@@ -200,6 +201,7 @@ ABOUT ME
 	text-align: left;
 	margin-left: 20px;
 	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
 	font-size: 28px;
 	
 	
@@ -211,8 +213,11 @@ ABOUT ME
 EDUCATION
 ============================================*/
 .education{
+	
 	background:url('../img/background2.jpg') no-repeat center center;
+
 	background-size: cover;
+	
 }
 
 
@@ -244,7 +249,7 @@ SKILLS
 .mySkills{
 	background:url('../img/background3.jpg') no-repeat center center;
 	background-size: cover;
-	opacity: 0.7;
+	
 }
 
 #mySkills{
@@ -263,13 +268,16 @@ SKILLS
 }
 
 .col-4:hover{
-	border-color: #dcdbc5;
-	border-style: outset;
-	box-shadow: 10px 10px 5px #f1f1f1;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 10px 10px 5px #d0d6d8;
 	font-size: 20px;
 	
 	opacity: 1;
 	
+}
+
+.violet:hover{
+	box-shadow: 10px 10px 5px #e7dfe5;
 }
 
 .skill-name{
@@ -296,7 +304,7 @@ PROJECTS
 
 .projects{
 	
-	background-color: #363138;
+	background: linear-gradient(90deg, #302f37, #452e3d);
 	background-size: cover;
 	
 }
@@ -327,6 +335,31 @@ PROJECTS
   border-radius: 3px 0 0 3px;
 }
 
+.projectDescription{
+margin: auto;
+padding-top: 20px;
+color:white;
+}
+
+.projectDesc{
+	margin: 20px 20px 0 50px;
+	padding: 0 100px 0 100px;
+	text-align: center;
+	text-align: justify;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.duty{
+	font-weight: 600;
+	color:white;
+}
+
+.colorYT{
+	margin-left: 100px;
+	
+}
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -344,6 +377,10 @@ PROJECTS
 
  .dot:hover {
   background-color: #717171;
+}
+
+.iframe{
+	
 }
 
 .fade {
@@ -373,6 +410,7 @@ CONTACTS
 	}
 .contact{
 	background:url('../img/background4.jpg') no-repeat center center;
+	
 	background-size: cover;
 }
 #contact img{
@@ -393,7 +431,7 @@ font-weight: 600;
 .section-name{
 	margin: 0;
 	text-align: center;
-	color:#ded81f;
+	color:#038ca9;
 	font-family: 'Cardo', serif;
 }
 
