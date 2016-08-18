@@ -41,7 +41,7 @@ For mobile phones: part-
 }
 
 .navigation{
-	min-height: 120px;
+	min-height: 100px;
 }
 
 .navigationMenu{
@@ -54,12 +54,14 @@ For mobile phones: part-
 
 .scroll{
 	float: left;
-	padding-top: 10px;
-	padding-left:   10px;
+	padding-top: 5px;
+	padding-left:   5px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-
+.part-2 .projectDesc{
+	padding:0 15px 0 15px;
+}
 /*==================================
  For desktop: part-
  ====================================*/
@@ -84,13 +86,12 @@ For mobile phones: part-
 	.navigationMenu{
 	list-style: none;
 	list-style-position: outside;
-	margin-right: 0px;
+	margin-right: 15px;
 	}
 
 	.scroll{
+	padding:20px 20px 20px 0;
 	
-	padding-top: 20px;
-	padding-bottom: 20px;
 	}
 
     .part-2 {
@@ -98,7 +99,7 @@ For mobile phones: part-
     	margin-left: 15%;
     	 }
 
-}
+    
 
 
 
@@ -120,7 +121,8 @@ part-2
  =============================*/
 [class*="col-"] {
     width: 100%;
-}
+
+    }
 
 
 
@@ -140,13 +142,19 @@ part-2
     .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;
-    }
+    .col-12 {width: 100%;}
+    
 
     
      #aboutMe, #education, #mySkills,  #contact{
     	height:100vh;
     }
+
+    #projects .projectDesc{
+	/*margin: 20px 20px 0 50px;*/
+	padding:0 100px 0 100px;}
+
+}
 }
 
 /*=========================================
@@ -317,6 +325,10 @@ PROJECTS
 	margin:auto;
 }
 
+.mySlides{
+	margin-left: 30px;
+}
+
 .prev, .next{
   cursor: pointer;
   position: absolute;
@@ -341,14 +353,15 @@ PROJECTS
 margin: auto;
 padding-top: 20px;
 color:#363138;
-font-family: 'Yrsa', serif;
+font-family: 'Scope One', serif;
+font-weight: 400;
 
 }
 
 .projectDesc{
-	margin: 20px 20px 0 50px;
-	padding: 0 100px 0 100px;
-	text-align: center;
+	/*margin: 20px 20px 0 50px;*/
+	padding-right: 100px;
+	
 	text-align: justify;
 	
 	
@@ -362,19 +375,20 @@ font-family: 'Yrsa', serif;
 	font-family: 'Josefin Sans', sans-serif;
 	color:white;
 	color:#363138;
+	text-align: center;
 }
 
 .duty{
 	font-size: 26px;
 	
-	font-family: 'Yrsa', serif;
+	font-family: 'Scope One', serif;
 	color:white;
 	color:#363138;
 	
 }
 
 .colorYT{
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	
 }
 
@@ -443,7 +457,7 @@ font-weight: 600;
 }
 
 #contact p:hover{
-	color:#363138;
+	color:#452e3d;
 }
 /*=================================*/
 .section-name{
