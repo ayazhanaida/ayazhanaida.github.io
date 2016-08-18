@@ -68,7 +68,7 @@ For mobile phones: part-
 /*part-1*/
     .part-1 {
     	 	height: 100vh;
-    	width: 20%;
+    	width: 15%;
     	/*sition: fixed;*/
     	display:-webkit-flex;
 		display:flex;
@@ -94,8 +94,8 @@ For mobile phones: part-
 	}
 
     .part-2 {
-    	width:80%;
-    	margin-left: 20%;
+    	width:85%;
+    	margin-left: 15%;
     	 }
 
 }
@@ -165,7 +165,7 @@ NAVIGATION
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 20px;
-	font-style: italic; 
+	
 }
 
 .scroll:hover{
@@ -188,7 +188,8 @@ ABOUT ME
 	color: #ececec;
 	background-color: rgba(3, 140, 169, 0.55);
 	text-align: left;
-	font-family: 'Cardo', serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
 	font-size: 48px;
 	font-style: italic;
 	margin: 200px 0 0 30%;
@@ -304,7 +305,8 @@ PROJECTS
 
 .projects{
 	
-	background: linear-gradient(90deg, #302f37, #452e3d);
+	/*background: linear-gradient(90deg, #302f37, #452e3d);*/
+	background-color: #ececec;
 	background-size: cover;
 	
 }
@@ -338,7 +340,9 @@ PROJECTS
 .projectDescription{
 margin: auto;
 padding-top: 20px;
-color:white;
+color:#363138;
+font-family: 'Yrsa', serif;
+
 }
 
 .projectDesc{
@@ -346,13 +350,27 @@ color:white;
 	padding: 0 100px 0 100px;
 	text-align: center;
 	text-align: justify;
-	font-family: 'Josefin Sans', sans-serif;
+	
+	
+	
+}
 
+
+.project-name{
+	font-size: 32px;
+	font-weight: 600;
+	font-family: 'Josefin Sans', sans-serif;
+	color:white;
+	color:#363138;
 }
 
 .duty{
-	font-weight: 600;
+	font-size: 26px;
+	
+	font-family: 'Yrsa', serif;
 	color:white;
+	color:#363138;
+	
 }
 
 .colorYT{
@@ -432,7 +450,8 @@ font-weight: 600;
 	margin: 0;
 	text-align: center;
 	color:#038ca9;
-	font-family: 'Cardo', serif;
+	font-weight: 600;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 
