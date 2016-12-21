@@ -185,7 +185,8 @@ NAVIGATION
 ABOUT ME
 ===========================================*/
 .aboutMe{
-	background:url('../img/background1-4.jpg') no-repeat center center;
+	/*background:url('../img/background1-4.jpg') no-repeat center center;*/
+	background: linear-gradient(90deg, #302f37, #452e3d,);
 	background-size: cover;
 	
 }
