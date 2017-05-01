@@ -345,6 +345,19 @@ button{
 	text-align: justify;
 }
 
+.projectDescription2{
+	max-width: 800px;
+	margin: auto;
+	color:#181817;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.center{
+	margin: auto;
+	max-width: 800px;
+}
 figure{
 	margin: 10px;
 	}
