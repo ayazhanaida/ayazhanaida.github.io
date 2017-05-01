@@ -238,26 +238,38 @@ button{
 
 /*about me--------------------------------------------------------------*/
 #aboutMe{
-	background: linear-gradient(to bottom right, #DA4003, #c70973);
+	background: linear-gradient(to bottom right, #F47586, #A21226);
 }
 
 
 
+.aboutMe{
+	padding-top: 1%;
+	padding-bottom: 5%;
+}
+
+#aboutMe img{
+	display: block;
+	margin: 0 auto;
+}
+
 #aboutMe p{
-	text-align: center;
-	padding-top: 180px; 
-	padding-bottom: 180px;
-	font-size: 60px;
+	max-width: 800px;
+	margin:auto;
+	text-align: justify;
+	font-size: 20px;
 	color: #f2ecec;
+	font-style:italic;
+}
 }
 /*education-------------------------------------------------------------*/
 #education{
-	background: linear-gradient(to bottom right, #90f4e8, #0da79f);
+	background: linear-gradient(to bottom right, #56D4D4, #12B3B3);
 	height: 100vh;
 	}
 
 #education h1{
-	color: #3650a4;
+	color: #ffffff;
 }
 
 .education{
@@ -281,7 +293,7 @@ button{
 
 /*my skills-------------------------------------------------------------*/
 #mySkills{
-	background: linear-gradient(to bottom right, #6A1BB6, #072894);
+	background: linear-gradient(to bottom right, #464DA4, #2C3498);
 }
 
 #mySkills h1{
