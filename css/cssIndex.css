@@ -264,12 +264,12 @@ button{
 }
 /*education-------------------------------------------------------------*/
 #education{
-	background: linear-gradient(to bottom right, #56D4D4, #12B3B3);
+	background: linear-gradient(to bottom right, #56D4D4, #10A1A1);
 	height: 100vh;
 	}
 
 #education h1{
-	color: #ffffff;
+	color: #064040;
 }
 
 .education{
