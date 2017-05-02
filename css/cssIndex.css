@@ -239,6 +239,7 @@ button{
 /*about me--------------------------------------------------------------*/
 #aboutMe{
 	background: linear-gradient(to bottom right, #F47586, #A21226);
+	height: 100vh;
 }
 
 
