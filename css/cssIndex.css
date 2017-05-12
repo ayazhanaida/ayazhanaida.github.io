@@ -366,6 +366,10 @@ margin:auto;
 	
 }
 
+.center{
+	max-width:860px;
+}
+
 figcaption{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
