@@ -355,6 +355,17 @@ button{
 	text-align: justify;
 }
 
+.washingMachine li{
+	margin-left: 10%;
+	padding-left: 40px;
+	list-style-type: none;
+	text-align: left;
+	list-style-position:inside;
+	color:#181817;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
 img{
 margin:auto;
 }
