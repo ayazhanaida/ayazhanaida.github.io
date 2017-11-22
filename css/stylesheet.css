@@ -1,0 +1,244 @@
+/*---------------------------------------Navigation*/
+nav{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+nav a{
+	font-size: 14px;
+	padding-right: 20px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	text-decoration: none;
+	color:#BDBDBD;
+
+}
+
+.active{
+	color:#2D3977;
+}
+
+nav a:hover{
+	color:#828282;
+	text-decoration: none;
+}
+
+/*---------------------------------------Work*/
+.introduction{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	font-size: 28px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.introduction span{
+	font-weight: 900;
+
+}
+
+.gallery{
+	opacity:0.9;
+	color:grey;
+}
+
+.gallery:hover{
+	opacity:1;
+	color:black;
+}
+
+.project-name{
+	background-color:#F3F3F3;
+	text-align: center;
+}
+
+footer{
+	text-align:center;
+}
+
+/*---------------------------------------About me*/
+.display-container{
+	position: relative;
+    
+}
+
+.left{
+	font-family: 'Josefin Slab', serif;
+	position: absolute;
+    bottom: 30%;
+    left: 16px;
+    font-size: 72px;
+    color:#dba8ae;
+}
+
+.skill-container{
+	padding-bottom: 50px;
+
+}
+
+.about_me_img{
+	width:100%;
+	height:auto;
+}
+
+.skills{
+	font-family:'Lato', sans-serif;
+	text-align: center;
+	color:#2D3977;
+}
+
+.skill-name{
+	font-family:'Lato', sans-serif;	
+	color:#2D3977;
+}
+
+.skill-description{
+	font-family:'Lato', sans-serif;
+	text-align: justify;
+}
+
+.skill-img{
+	display:inline-block;
+}
+
+
+/*------------------------------------------Resume*/
+.resume-name, .job-position, .period, .job-description, .education-title, .cv, .lng{
+	font-family:'Lato', sans-serif;
+}
+
+.cv{
+	font-family: 'Lato', serif;
+	color:#2D3977;
+	font-size: 28px;
+}
+
+.resume-img{
+	display:inline-block;
+}
+
+.resume-name{
+
+	font-size: 28px;
+	font-weight: 700;
+	color:#4F4F4F;
+}
+
+.education, .job, .languages{
+	padding-bottom: 50px;
+}
+
+.name{
+	font-size: 20px;
+	font-weight: 600;
+	color:#4F4F4F;
+}
+
+.period{
+	font-size: 14px;
+	color:#BDBDBD;
+}
+
+.job-description{
+	font-size: 16px;
+	color:#4F4F4F;
+	padding-bottom: 25px;
+}
+
+.resume .jumbotron{
+	margin-bottom: 0;
+}
+
+/*---------------------------------------Project 1*/
+.prj-dsc{
+	margin:0 auto;
+}
+
+#prj-cntr{
+	padding-bottom: 50px;
+	display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; 
+}
+.project-description{
+	text-align: justify;
+}
+
+.project-header{
+	font-family:'Lato', sans-serif;
+}
+
+.colors{
+	display:inline-block;
+}
+
+.project-sub-header{
+	text-align: center;
+}
+
+.app-font{
+	font-family: 'Corbel';
+	font-size: 18px;
+}
+
+.app-img{
+	
+	width:200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.mockup{
+	padding-bottom: 50px;
+	background-image: url("../project1/Frame.png");
+	margin-left: auto;
+    margin-right: auto 
+}
+
+
+/*---------------------------------------Project 2*/
+.prj2{
+	background-image: url("../project2/frame.jpg");
+}
+
+.prj2-img{
+	display:inline-block;
+
+
+}
+
+.project-image{
+	width:200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+}
+
+.project-header, .prj2-text{
+	color:#ffffff;
+}
+
+
+/*---------------------------------------Project 3*/
+.brch{
+	display:inline-block;	
+}
+
+
+/*----------------------------------------Project 4*/
+.printed-design{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*---------------------------------------Footer 2*/
+footer{
+	font-family: 'Josefin Slab', serif;
+	color:#2D3977;
+	font-weight: 800;
+
+}
+
