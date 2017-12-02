@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/portfolio.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
 </head>
 <body>
@@ -21,16 +22,14 @@
 			<a href="resume/resume.html">RESUME</a>
 		</nav>
 		
+		<div class='introduction' id="str"></div>
 
-		<div class="introduction">
-			<p>Hi, My name is Aya. My mom calls me USB-designer but for others I'm UX and Visual designer:) <br>Have questions? <span>Ask me</span></p>
-		</div>
-
+		
 	
 
 	<div class="row">
-		<a href="project1/project1.html">
-		<div class="col-sm-6 gallery">
+					<a href="project1/project1.html">
+					<div class="col-sm-6 gallery">
 					<img src="project1/project1.jpg" class="img-responsive" alt="Image">
 					<p class="project-name">Design of mobile app for Orienteering events</p>
 		</div>
@@ -66,5 +65,15 @@
 
 	</div>
 </div>
+
+<script>
+	var string = "Hi, My name is Aya. My mom calls me USB-designer but for others I'm UX and Visual designer:) Have questions? Ask me";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+var running = setTimeout(animate, 20);
+})();
+</script>
 </body>
 </html>
