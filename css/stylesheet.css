@@ -30,8 +30,10 @@ nav a:hover{
 	padding-bottom: 120px;
 	font-size: 28px;
 	font-family: 'Josefin Slab', serif;
-}
-
+	
+  }
+  
+  
 .introduction span{
 	font-weight: 900;
 
@@ -203,13 +205,18 @@ footer{
 
 /*---------------------------------------Project 2*/
 .prj2{
-	background-image: url("../project2/frame.jpg");
+	background-image: url("../project2/frame.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-prj2, .project-header{
+	padding-bottom: 30px;
+
 }
 
 .prj2-img{
 	display:inline-block;
-
-
 }
 
 .project-image{
@@ -218,10 +225,13 @@ footer{
 
 }
 
-.project-header, .prj2-text{
-	color:#ffffff;
+.project-header2, .prj2-text{
+	color:#dcd6dc;
 }
 
+.prj2-text{
+	text-align: justify;
+}
 
 /*---------------------------------------Project 3*/
 .brch{
@@ -232,6 +242,16 @@ footer{
 /*----------------------------------------Project 4*/
 .printed-design{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.wp{
+	display: inline-block;
+}
+
+.printed-design-type{
+	color:#666666;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /*---------------------------------------Footer 2*/
