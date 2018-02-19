@@ -254,6 +254,14 @@ footer{
 	padding-bottom: 30px;
 }
 
+
+.printed-design-h2, .project-header-printed{
+	text-align: center;
+}
+
+.printed-design-block{
+	padding-bottom: 50px;
+}
 /*---------------------------------------Footer 2*/
 footer{
 	font-family: 'Josefin Slab', serif;
