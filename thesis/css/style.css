@@ -1,0 +1,169 @@
+.deliveryInfo{
+	font-weight: bold;
+	
+}
+
+hr{
+	color:black;
+}
+
+.my-btn{
+	border:none;
+	color:#ffffff;
+	background-color: #1A5DF7;
+
+}
+
+/*---------------------------------nav*/
+nav{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+nav a{
+	padding-right: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color:#111111;
+	font-size: 14px;
+}
+
+/*----------------------------------------------------------ng-index*/
+
+/*---------------------------------Table*/
+table{
+	width:100%
+	border-collapse: collapse;
+	padding-bottom: 50px;
+}
+
+th, td{
+	padding:15px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+
+/*----------------------------------------------------------start-route*/
+.image{
+	padding-bottom: 15px;
+}
+
+.btn{
+	color:#ffffff;
+	margin-bottom: 15px;
+	background-color: #1A5DF7;
+}
+
+/*----------------------------------------------------------finish-route*/
+.finish-route-table th,td{
+		padding:10px;
+}
+
+/*----------------------------------------------------------finish-route*/
+.delivered{
+	text-align: center;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------GAMIFIED*/
+/*----------------------------------------------------------g-index*/
+.g-index{
+	background-image: url(../gamified/img/city.jpg);
+	height:100vh;
+	color:#ffffff;
+}
+
+.w-page, .q-link{
+	color:#ffffff;
+}
+
+
+
+.city-btn{
+	background-color: #1A5DF7;
+	color:#ffffff;
+	padding: 15px 32px;
+    text-align: center;
+}
+/*----------------------------------------------------------missions*/
+.power-desc{
+	display: block;
+}
+
+.power{
+	padding-bottom: 20px;
+}
+
+.powers{
+	background-color: #efeeec;
+}
+
+.item{
+	font-size: 12pt;
+}
+.power-desc{
+	background-color: #efeeec;
+	padding:15px;
+	list-style-type: none;
+    
+}
+
+.power-desc li{
+	display: inline-block;
+    padding-right: 20px; 
+}
+
+.command{
+	color: #00173a;
+}
+
+.map-img{
+	padding-bottom: 15px;
+}
+
+.mission-desc{
+	background-color:#00173a;
+	padding-bottom: 15px;
+	color:#ffffff;
+}
+/*----------------------------------------------------------mission*/
+#snackbar{
+	opacity: 0;
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px; 
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+
+	animation:fading 10s;
+	animation-delay: 5s;}
+
+	@keyframes fading{
+		0%{opacity:0}
+		50%{opacity:1}
+		100%{opacity:0}
+}
+
+span{
+	color:#00AE68;
+}
+
+.cur-power{
+	color:#00AE68;
+}
+/*----------------------------------------------------------score*/
+.score{
+	background-color: #00173a;
+
+}
+
+.additional{
+	font-size: 12pt;
+}
