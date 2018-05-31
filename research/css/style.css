@@ -61,6 +61,10 @@ th, td{
 		padding:10px;
 }
 
+.hint{
+	color:#333333;
+	font-size: 10pt;
+}
 /*----------------------------------------------------------finish-route*/
 .delivered{
 	text-align: center;
