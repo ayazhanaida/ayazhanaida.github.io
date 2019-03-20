@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="241px" viewBox="0 0 133 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>next</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="next" transform="translate(66.500000, 120.500000) scale(-1, 1) translate(-66.500000, -120.500000) " fill="#000000" fill-rule="nonzero">
+            <path d="M129.189,111.816 L20.892,3.555 C16.14,-1.185 8.441,-1.185 3.677,3.555 C-1.075,8.295 -1.075,15.994 3.677,20.734 L103.384,120.405 L3.689,220.076 C-1.063,224.816 -1.063,232.515 3.689,237.267 C8.441,242.007 16.152,242.007 20.904,237.267 L129.201,129.006 C133.881,124.315 133.881,116.495 129.189,111.816 Z" id="Chevron_Right_1_"></path>
+        </g>
+    </g>
+</svg>
