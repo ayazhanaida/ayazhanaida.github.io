@@ -11,7 +11,11 @@
 
 nav{
 	text-align: center;
-	padding-top: 50px;
+	background-color: #ffffff;
+	opacity: 0.8;
+	padding-left:0;
+	width: 100%;
+	height: 40px;
 }
 
 nav a{
@@ -53,12 +57,15 @@ i {
 	width:100%;
 	overflow:hidden;
 	display:inline-block;
+	padding-left:0; 
 
 }
 
 .w3-light-grey{
-	color:#000!important;
-	background-color:#f1f1f1!important
+	
+	background-color:#ffffff;
+	opacity: 0.9;
+	position: fixed;
 }
 
 .w3-bar-item{
@@ -68,13 +75,20 @@ i {
 	border:none;
 	display:block;
 	outline:0;
+	color:#3B3BFC;
+	font-family: Open Sans;
 }
 /*--------about*/
 .about_background{
 	margin-top: 0;
+	padding-left: 0;
 	height:100vh;
-	background-image: url("../all_img/790.jpg");
+	background-image: url("../all_img/about.jpg");
 	background-size: cover;
+}
+
+.col-md-12{
+	padding-left: 0;
 }
 
 .about{
@@ -87,7 +101,7 @@ i {
 	font-weight: normal;
 	line-height: normal;
 	font-size: 144px;
-	color: #0000E5;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -98,7 +112,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 32px;
-color: #595959;
+color: #ffffff;
 
 }
 
@@ -112,7 +126,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 22px;
 
-color: #595959;
+color: #ffffff;
 
 }
 
@@ -157,10 +171,13 @@ button .downloading_objectives:hover{
 	text-align:right;
 	font-family: Open Sans;
 	font-weight: 300;
+	color:#444444;
+	font-size: 16px;
 }
 
 .prj-desc-span{
 	font-weight: 400;
+	color:#0000E5;
 }
 .project-purpose{
 	height:50vh;
@@ -197,6 +214,38 @@ color: #000000;
 	padding-top: 64px;
 	font-weight: 400;
 	color:#0000E5;
+}
+
+.main_contacts{
+	background-color: #6161FC;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
+
+.bottom-contacts h2, article{
+	font-size: 12px;
+	font-weight:300;
+	color:#ffffff;
+
+}
+
+.disclaimer{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #F3F1F1;
+	padding-top: 15px;
+	padding-bottom:15px;
+	
+}
+
+.d-text{
+	color:#444444;
+	font-style: italic;
+}
+
+.bc{
+	color:#ffffff;
+	
 }
 
 /*____________________________________news*/
