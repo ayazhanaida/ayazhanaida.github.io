@@ -230,6 +230,8 @@ color: #000000;
 }
 
 .disclaimer{
+	
+	bottom: 0;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	background-color: #F3F1F1;
@@ -358,4 +360,11 @@ color: #000000;
 .table{
 	font-family: Open Sans;
 	font-weight:300;
+}
+
+/*_________________________________results*/
+.footer-results{
+	position:fixed;
+	bottom:0;
+	width:100%;
 }
