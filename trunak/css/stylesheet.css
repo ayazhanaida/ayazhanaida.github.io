@@ -250,6 +250,10 @@ color: #000000;
 	
 }
 
+.bc a{
+	color:#ffffff;
+	text-decoration: underline;
+}
 /*____________________________________news*/
 
 .news_center{
@@ -317,7 +321,7 @@ color: #000000;
 /*____________________________________gallery*/
 .gallery{
 	padding-top: 130px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .gallery_img{
@@ -363,6 +367,20 @@ color: #000000;
 }
 
 /*_________________________________results*/
+.res{
+	color:#444444;
+	font-weight: 300;
+	font-size: 24px;
+	padding-bottom: 15px;
+}
+
+.downloading_results{
+	text-decoration: underline;
+	color:#0000E5;
+	font-family: Open Sans;
+	font-weight:300;
+}
+
 .footer-results{
 	position:fixed;
 	bottom:0;
